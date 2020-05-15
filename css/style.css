@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    transition-duration: 0.5s;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+}
+.red-circle-left-top,.red-circle-left-bottom,.red-circle-right-top,
+.red-circle-right-bottom {
+    background-color: #ef1c04;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    width: 30%;
+    height: 30%;
+}
+.red-circle-left-top {
+    top: 0;
+    left: 0;
+}
+.red-circle-left-top:hover {
+    background-color: #000000;
+    z-index: 15;
+}
+.red-circle-left-bottom {
+    bottom: 0;
+    left: 0;
+}
+.red-circle-left-bottom:hover {
+    background-color: #55ce37;
+    z-index: 15;
+}
+.red-circle-right-top {
+    top: 0;
+    right: 0;
+}
+.red-circle-right-top:hover {
+    background-color: #32175e;
+    z-index: 15;
+}
+.red-circle-right-bottom {
+    bottom: 0;
+    right: 0;
+}
+.red-circle-right-bottom:hover {
+    background-color: #8d9430;
+    z-index: 15;
+}
+.square {
+    background-color: #00a3ff;
+    position: absolute;
+    z-index: 10;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
+}
+.square:hover {
+    background-color: #f5f5dc;
+    z-index: 25;
+}
+.square-small {
+    background-color: #f8bb00;
+    border-radius: 5%;
+    position: absolute;
+    z-index: 10;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    z-index: 20;
+}
+.square-small:hover {
+    background-color: #fff;
+    z-index: 30;
+}
